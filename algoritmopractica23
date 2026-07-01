@@ -1,0 +1,14 @@
+// Definición de la función (SubProceso sin retorno)
+	SubProceso mostrarMensajeSistemas(ayuda)
+	// Ámbito Local: Esta variable solo existe aquí
+		Definir mensajeLocal Como Caracter;
+		mensaje <- "Iniciando sistema... Abstracción completada.";
+		Escribir mensaje;
+FinSubProceso
+Algoritmo algoritmo_practica23
+	//ejecucion principal
+	Escribir "Llamando la funcion por primera vez"
+	mostrarMensajeSistemas(ayuda); // se llama a la funcion por primera vez
+	escribir "Llamando a la funcion por segunda vez"
+	mostrarMensajeSistemas(ayuda)
+FinAlgoritmo
